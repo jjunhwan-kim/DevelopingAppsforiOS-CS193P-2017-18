@@ -15,6 +15,7 @@
 		1E398FAB2539F6D900D11BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E398FA92539F6D900D11BE0 /* LaunchScreen.storyboard */; };
 		1E398FB62539F77B00D11BE0 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E398FB52539F77B00D11BE0 /* PlayingCard.swift */; };
 		1E398FB92539FA8D00D11BE0 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E398FB82539FA8D00D11BE0 /* PlayingCardDeck.swift */; };
+		1E74E0D72541DA1C00555A51 /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74E0D62541DA1C00555A51 /* CardBehavior.swift */; };
 		1E8639D1253AC4A500E522BA /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8639D0253AC4A500E522BA /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		1E398FAC2539F6D900D11BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E398FB52539F77B00D11BE0 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		1E398FB82539FA8D00D11BE0 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		1E74E0D62541DA1C00555A51 /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
 		1E8639D0253AC4A500E522BA /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 			children = (
 				1E398FB32539F71C00D11BE0 /* Supporting Files */,
 				1E398FA22539F6D500D11BE0 /* ViewController.swift */,
+				1E74E0D62541DA1C00555A51 /* CardBehavior.swift */,
 				1E398FA42539F6D500D11BE0 /* Main.storyboard */,
 				1E398FA72539F6D900D11BE0 /* Assets.xcassets */,
 				1E398FAC2539F6D900D11BE0 /* Info.plist */,
@@ -160,6 +163,7 @@
 				1E398FB92539FA8D00D11BE0 /* PlayingCardDeck.swift in Sources */,
 				1E398FB62539F77B00D11BE0 /* PlayingCard.swift in Sources */,
 				1E398FA12539F6D500D11BE0 /* SceneDelegate.swift in Sources */,
+				1E74E0D72541DA1C00555A51 /* CardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CPJU82L5;
 				INFOPLIST_FILE = PlayingCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24CPJU82L5;
 				INFOPLIST_FILE = PlayingCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
