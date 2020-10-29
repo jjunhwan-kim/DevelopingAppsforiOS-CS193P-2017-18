@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ConcentrationThemeChooserViewController: UIViewController, UISplitViewControllerDelegate {
+class ConcentrationThemeChooserViewController: VCLLoggingViewController, UISplitViewControllerDelegate {
+    override var vclLoggingName: String {
+        return "ThemeChooser"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     override func awakeFromNib() {
+        super.awakeFromNib()
         splitViewController?.delegate = self
     }
     
@@ -36,19 +41,19 @@ class ConcentrationThemeChooserViewController: UIViewController, UISplitViewCont
     ]
     
     @IBAction func changeTheme(_ sender: Any) {
-        if let cvc = splitViewDetailConcentrationViewController {
-            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
-                cvc.theme = theme
-            }
-        } else if let cvc = lastSeguedToConcentrationViewController {
-            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
-                cvc.theme = theme
-            }
-            navigationController?.pushViewController(cvc, animated: true)
-        }
-        else {
+//        if let cvc = splitViewDetailConcentrationViewController {
+//            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
+//                cvc.theme = theme
+//            }
+//        } else if let cvc = lastSeguedToConcentrationViewController {
+//            if let themeName = (sender as? UIButton)?.currentTitle, let theme = themes[themeName] {
+//                cvc.theme = theme
+//            }
+//            navigationController?.pushViewController(cvc, animated: true)
+//        }
+//        else {
             performSegue(withIdentifier: "Choose Theme", sender: sender)
-        }
+//        }
     }
     
     private var splitViewDetailConcentrationViewController: ConcentrationViewController? {
