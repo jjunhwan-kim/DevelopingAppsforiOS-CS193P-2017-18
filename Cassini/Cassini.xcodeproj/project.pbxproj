@@ -14,6 +14,7 @@
 		1E3C49772549BF8C00AF0B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3C49752549BF8C00AF0B79 /* LaunchScreen.storyboard */; };
 		1E3C49832549C03F00AF0B79 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C49822549C03F00AF0B79 /* ImageViewController.swift */; };
 		1E3C49862549C92500AF0B79 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C49852549C92500AF0B79 /* DemoURLs.swift */; };
+		1E82C5FD25505F0B0037CFF0 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82C5FC25505F0B0037CFF0 /* CassiniViewController.swift */; };
 		1E878F66254AF9990019DA5B /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E878F65254AF9990019DA5B /* oval.jpg */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		1E3C49782549BF8C00AF0B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3C49822549C03F00AF0B79 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		1E3C49852549C92500AF0B79 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoURLs.swift; path = ../../../../Downloads/Caccini/Caccini/DemoURLs.swift; sourceTree = "<group>"; };
+		1E82C5FC25505F0B0037CFF0 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		1E878F65254AF9990019DA5B /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 			children = (
 				1E3C497F2549BFB600AF0B79 /* Supporting Files */,
 				1E3C49702549BF8900AF0B79 /* Main.storyboard */,
+				1E82C5FC25505F0B0037CFF0 /* CassiniViewController.swift */,
 				1E3C49822549C03F00AF0B79 /* ImageViewController.swift */,
 				1E3C49852549C92500AF0B79 /* DemoURLs.swift */,
 				1E878F65254AF9990019DA5B /* oval.jpg */,
@@ -155,6 +158,7 @@
 				1E3C49862549C92500AF0B79 /* DemoURLs.swift in Sources */,
 				1E3C496B2549BF8900AF0B79 /* AppDelegate.swift in Sources */,
 				1E3C49832549C03F00AF0B79 /* ImageViewController.swift in Sources */,
+				1E82C5FD25505F0B0037CFF0 /* CassiniViewController.swift in Sources */,
 				1E3C496D2549BF8900AF0B79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
